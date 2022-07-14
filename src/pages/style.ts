@@ -33,8 +33,8 @@ export const Wrapper = styled.div`
 
 export const Image = styled.div`
   overflow: hidden;
-  width: 12rem;
-  height: 12rem;
+  width: 10rem;
+  height: 10rem;
   display: flex;
   border-radius: 10rem;
 
@@ -56,10 +56,11 @@ export const IconsWrapper = styled.div`
     width: 10rem;
 
     :hover {
-      width: 11rem;
       height: auto;
-      -webkit-transition: 0.3s ease-in-out;
+      //-webkit-transition: 0.3s ease-in-out;
       transition: 0.3s ease-in-out;
+      //filter: drop-shadow(1px 2px 10px #5c7b9c);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
     }
   }
 
