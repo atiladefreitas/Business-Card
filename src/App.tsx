@@ -1,8 +1,13 @@
-import { useState } from "react";
 import { Page } from "./pages";
+import { Navbar } from "./components/navbar";
 
 function App() {
-  return <Page />;
+  return (
+    <>
+      {/*<Navbar />*/}
+      <Page />
+    </>
+  );
 }
 
 export default App;

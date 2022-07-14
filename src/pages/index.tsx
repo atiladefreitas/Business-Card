@@ -7,8 +7,6 @@ import {
   Title,
   Subtitle,
 } from "./style";
-import { FaGithub, FaLinkedin, FaTelegramPlane } from "react-icons/fa";
-import { GoMail } from "react-icons/go";
 import photo from "../assets/photo.jpeg";
 import email from "../assets/badges/E-mail.png";
 import linkedin from "../assets/badges/Linkedin.png";
@@ -42,16 +40,16 @@ function Page(): JSX.Element {
           <Subtitle>ReactJS & React Native | TypeScript | NodeJS</Subtitle>
         </div>
         <IconsWrapper>
-          <a href="mailto:contact@atiladefreitas.co">
+          <a href="mailto:contact@atiladefreitas.co" target="_blank">
             <img src={email} alt={"email"} />
           </a>
-          <a href="https://www.linkedin.com/in/atilafreitas">
+          <a href="https://www.linkedin.com/in/atilafreitas" target="_blank">
             <img src={linkedin} alt={"linkedin"} />
           </a>
-          <a href="https://github.com/atiladefreitas">
+          <a href="https://github.com/atiladefreitas" target="_blank">
             <img src={github} alt={"email"} />
           </a>
-          <a href="https://t.me/atilajcfreitas">
+          <a href="https://t.me/atilajcfreitas" target="_blank">
             <img src={telegram} alt={"email"} />
           </a>
         </IconsWrapper>
