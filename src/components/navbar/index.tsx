@@ -1,19 +1,23 @@
 import React from "react";
 import { Container } from "./style";
 
+import { useNavigate } from "react-router-dom";
+
 function Navbar(): JSX.Element {
+  const navigate = useNavigate();
+
   return (
     <Container>
       <h1
         onClick={() => {
-          console.log("hello");
+          navigate("/");
         }}
       >
         Home
       </h1>
       <h1
         onClick={() => {
-          console.log("hello");
+          navigate("/about");
         }}
       >
         About

@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import texture from "../assets/texture.png";
+import texture from "../../assets/texture.png";
 
 export const Container = styled.section`
   width: 100%;
@@ -27,7 +27,7 @@ export const Wrapper = styled.div`
 
   @media screen and (max-width: 460px) {
     height: 100%;
-    max-height: 50rem;
+    max-height: 40rem;
   }
 `;
 

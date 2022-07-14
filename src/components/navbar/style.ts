@@ -7,12 +7,19 @@ export const Container = styled.section`
   align-items: end;
   justify-content: center;
   position: absolute;
-  color: #e0d4c6;
+  color: #f8f7ff;
   gap: 1rem;
+
+  padding-bottom: 55rem;
+
+  @media screen and (max-width: 460px) {
+    padding-bottom: 48rem;
+  }
 
   & h1 {
     font-family: "Ubuntu", sans-serif;
     cursor: pointer;
+    font-weight: normal;
     :hover {
       color: #5c7b9c;
     }
