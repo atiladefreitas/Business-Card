@@ -47,7 +47,7 @@ function Page(): JSX.Element {
         <a href="https://github.com/atiladefreitas" target="_blank">
           <img src={github} alt={"email"} />
         </a>
-        <a href="https://t.me/atilajcfreitas" target="_blank">
+        <a href="https://t.me/atiladefreitas" target="_blank">
           <img src={telegram} alt={"email"} />
         </a>
       </IconsWrapper>
